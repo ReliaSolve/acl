@@ -5,6 +5,7 @@
 
 #pragma once
 #include <cstdint>
+#include <cstdlib>
 
 //=======================================================================
 // Figure out whether we're using Windows sockets or not.
