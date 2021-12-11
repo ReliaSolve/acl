@@ -24,8 +24,7 @@
 #include "Timer.h"
 #include <time.h>
 
-#ifdef UNIX
-#else
+#ifdef _WIN32
 #include <winsock2.h>
 #endif
 
